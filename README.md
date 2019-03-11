@@ -73,8 +73,10 @@ answer
 
 view total correct and wrong replies for a question
 `GET http://127.0.0.1:8001/tracks/1/questions/1/analysis/`
+
 output
-```{
+```
+{
     "right": 1,
     "wrong": 2
 }```
